@@ -1,0 +1,40 @@
+* {
+   padding: 0; 
+   margin: 0;
+}
+body {
+    background: #6361c2c0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button{
+    background: #303285;
+    overflow: none;
+    border: none;
+}
+#main {
+ width: 40%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.question {
+    font-size: 100px;
+}
+.btn_block {
+   width: 100% ;
+   display: flex ;
+   justify-content:space-between ;
+}
+.btn {
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: all 0.5s;
+}
